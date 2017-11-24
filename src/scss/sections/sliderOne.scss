@@ -8,6 +8,29 @@
 	height: 100%;
 	padding: 0 130px;
 	text-align: center;
+	position: relative;
+	.priew{
+		content: '';
+		position: absolute;
+		width: 15px;
+		height: 33px;
+		background: url(../img/priew.png);
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		cursor: pointer;
+	}
+	.next{
+		content: '';
+		position: absolute;
+		width: 12px;
+		height: 26px;
+		background: url(../img/next.png);
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		cursor: pointer;
+	}
 }
 .text-slider{
 	position: relative;
