@@ -6,10 +6,12 @@
 @import '_fonts';
 
 
-h2{
-	color: $color;
-}
 
+// підключаємо базові стилі
+@import '_base';
+
+// підключаю header
+@import 'sections/header';
 
 
 

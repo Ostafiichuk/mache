@@ -2,7 +2,7 @@
 
 module.exports = function(){
 	$.gulp.task('sass', function(){
-		return $.gulp.src('src/scss/**/*.scss')
+		return $.gulp.src('src/scss/main.scss')
 		.pipe($.gp.sourcemaps.init())
 		.pipe($.gp.sass())
 		.on('error', $.gp.notify.onError({  // notify вказує де сталася помилка якщо вона була
