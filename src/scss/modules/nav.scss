@@ -1,0 +1,19 @@
+.navigation{
+	list-style: none;
+}
+
+.navigation__item{
+	display: inline-block;
+}
+.navigation__link{
+	text-decoration: none;
+	color: #fff;
+	text-transform: capitalize;
+	margin-left: 15px;
+	font-size: 16px;
+	transition: all linear .3s;
+
+	&:hover{
+		color: $pink;
+	}
+}

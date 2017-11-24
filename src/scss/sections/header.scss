@@ -1,6 +1,50 @@
 header{
-	min-height: 800px;
+	height: 800px;
 	background:#000 url(../img/bg.jpg);
 	background-size: cover;
 	padding-top: 40px;
+	color: #fff;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+
+	.top-line{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	@import '../modules/nav';
+}
+
+.header-text{
+	text-align: center;
+	margin-top: 210px;
+
+	h1{
+		font-size: 48px;
+		text-transform: uppercase;
+		position: relative;
+		padding-bottom: 40px;
+		
+		&::after{
+			content: '';
+			position: absolute;
+			height: 2px;
+			width: 200px;
+			background: $pink;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	.header-article{
+		margin-top: 40px;
+		font-size: 22px;
+	}
+	a{
+		margin-top: 65px;
+		text-transform: uppercase;
+	}
+
 }

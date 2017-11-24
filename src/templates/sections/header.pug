@@ -1,9 +1,21 @@
 header
 	.container
-		.logo
-			a(href="#")
-				img(src="img/logo.png", alt="logo")
-		
+		.top-line
+			.logo
+				a(href="#")
+					img(src="img/logo.png", alt="logo")
+			
 
-		//- підключаємо навігацію
-		include ../modules/nav.pug
+			//- підключаємо навігацію
+			include ../modules/nav.pug
+
+		.header-text
+			h1 
+				b Mache 
+				|FREE psd Template
+			
+			p.header-article
+				|Elegant and clean PSD template, which you can download and use for free! 
+				br
+				|You can easily modify the design to make it your own and help you get your project running faster.
+			a(href="#").btn show more

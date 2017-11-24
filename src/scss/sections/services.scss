@@ -1,0 +1,28 @@
+.services{
+	padding: 150px 0 120px 0;
+}
+.services-item-wrap{
+	margin-top: 90px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.services-item{
+	width: 25%;
+	text-align: center;
+	position: relative;
+
+	.services-icon{
+		display: block;
+		margin: 0 auto;
+	}
+	.services-link{
+		display: inline-block;
+		margin-top: 30px;
+		text-transform: uppercase;
+		color: $pink;
+		text-decoration: none;
+		font-weight: bold;
+	}
+}
+

@@ -5,7 +5,8 @@ module.exports = function(){
 		$.browserSync.init({
         server: {
             baseDir: "build"
-        	}
+        	},
+    	notify: false // Отключаем уведомления
     	});
 		$.browserSync.watch('build', $.browserSync.reload);
 	});

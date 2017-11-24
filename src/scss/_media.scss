@@ -1,0 +1,19 @@
+@media screen and (max-width: 968px) {
+	.title--about{
+		text-align: center;
+		width: 100%;
+	}
+	.title-sections h2::after{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.macBook{
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 40px;
+		img{
+			display: inline-block;
+			width: 100%;
+		}
+	}
+}

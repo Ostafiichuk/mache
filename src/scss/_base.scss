@@ -2,12 +2,20 @@
 	margin: 0;
 	padding: 0;	
 }
+h2{
+	position: relative;
+	font-size: 38px;
+}
 body{
 	font-family: $Lato;
 	font-size: 15px;
 	color: $colorText;
 	margin: 0;
 	padding: 0;
+}
+section{
+	box-sizing: border-box;
+	text-align: center;
 }
 .container{
 	max-width: 1170px;
@@ -26,4 +34,32 @@ body{
 	background: $pink;
 	text-decoration: none;
 	cursor: pointer;
+
+	&:hover{
+		background: #ff3376;
+	}
+}
+
+.title-sections{
+	font-size: 38px;
+	text-align: center;
+	color: $colorText;
+
+	h2{
+		padding-bottom: 40px;
+		&::after{
+			content: '';
+			position: absolute;
+			height: 2px;
+			width: 200px;
+			background: $pink;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+	p{
+		margin-top: 40px;
+		font-size: 15px;
+	}
 }
