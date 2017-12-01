@@ -1,0 +1,22 @@
+.listServices{
+	padding: 30px 0 130px;
+}
+.listServices-wrap{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: left;
+}
+.listServices-item{
+	width: 30%;
+	box-sizing: border-box;
+	padding-left: 80px;
+	margin-top: 85px;
+	position: relative;
+	img{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+}
